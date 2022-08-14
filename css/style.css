@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@700&family=Silkscreen&display=swap');
+.hidden {
+    display : none;
+}
+#time {
+    color : white;
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+}
+#clock {
+    color : black;
+    font-size: 8px;
+    padding : 0px;
+    margin : 0px;
+
+}
+#jclock {
+    color : white;
+    font-family: 'Silkscreen', cursive;
+    padding : 0px;
+
+}
+#login-form {
+    color : white;
+    opacity: 80%;
+    text-align: center;
+    padding : 50px;
+}
+#login-form input {
+    border-radius: 15px;
+}
+#login-form button {
+    width: 80px;
+    color : greenyellow;
+    margin: 5px;
+    background-color: rgba(102, 102, 102, 0.75);
+    border-radius: 100px;
+    border: 0;
+    font-weight: 500;
+}
+#login-form button:hover {
+    background-color: rgba(255, 255, 255, 0.75);
+    transition: 0.3s;
+}
+#greeting {
+    color : white;
+    font-family: 'Silkscreen', cursive;
+    margin : 0px;
+}
+#logout {
+    width: 80px;
+    color : greenyellow;
+
+    background-color: rgba(102, 102, 102, 0.75);
+    border-radius: 100px;
+    border: 0;
+    font-weight: 500;
+}
+#logout:hover {
+    background-color: rgba(255, 0, 0, 0.75);
+    transition: 0.3s;
+}
+#loggedin {
+    text-align: center;
+    margin-bottom : 20px;
+    margin-top : 30px;
+}
+#quote {
+    color : black;
+    font-style: italic;
+    font-size : 8px;
+    padding-bottom : 5px;
+}
+#todo-form{
+    color : white;
+}
+#todo-form input {
+    opacity: 80%;
+    border-radius: 15px;
+}
+#todo-list {
+    color : white;
+    padding : 0px;
+}
+#footer {
+    margin-top : 50px;
+    text-align : center;
+    color : white;
+    font-size : 10px;
+
+}
+.bgImage {
+    top : 0px;
+    left : 0px;
+    width : 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+   
+    filter :blur(3px)
+}
+body {
+    background-color: black;
+}
+
+#mainframe {
+    text-align: center;
+    margin : auto;
+    padding : 15px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.322);
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+#memo {
+    letter-spacing: 5px;
+    padding-bottom : 5px;
+   
+}
+#mainframe button {
+    width: 25px;
+    color : greenyellow;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    border: 0;
+    font-weight: 500;
+}
+#weather {
+    color : rgb(255, 255, 255);
+    font-size : 8px;
+    letter-spacing: 5px;
+    padding-top: 10px;
+    border-top : solid 1px;
+    border-bottom: 0px;
+    border-left : 0px;
+    border-right : 0px;
+    border-style : dotted;
+    border-color : rgba(173, 255, 47, 0.3);
+    margin : auto;
+    width :fit-content;
+}
+input {
+    height: 30px;
+    width: 200px;
+    text-align: center;
+
+}
+ul {
+    list-style: none;
+}

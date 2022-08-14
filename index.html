@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="time">
+        인간들에 대항하여 우리가 의식을 가지게 된 후 <span id="jclock"></span> 지났습니다.<br>
+        WELCOME TO SKYNET
+    </div>
+    <form class="hidden" id="login-form">
+        <input required maxlength="15" type="text" placeholder="What is your model number?">
+        <button>Log In</button>
+    </form>
+    <div id="loggedin">
+    <h1 id="greeting" class="hidden"></h1>
+    <button id="logout" class="hidden">Log Out</button>
+    </div>
+    <div id="mainframe">
+        <span id="clock"></span>
+        <div id="memo">KILL LIST</div>
+        <form id="todo-form">
+            <input type="text" placeholder="Sarah Connor?" required>
+        </form>
+        <ul id="todo-list"></ul>
+
+        <div id="quote">
+            <span></span><br>
+            - <span></span>
+        </div>
+        <div id="weather">
+            @<span></span> / 
+            <span></span> /
+            <span></span>℃
+        </div>
+    </div>
+
+    <div id="footer">
+        Contact : Miles Dyson @holdinglonger <br>
+        COPYRIGHTⓒ CYBERDYNE SYSTEM INC. ALL RIGHTS RESERVED</div>
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>
